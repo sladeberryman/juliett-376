@@ -5,56 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <title>User Interface Fix</title>
+  <title>Home</title>
 </head>
 
 <body>
 
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="https://www.linkedin.com/in/sladeberryman/" target="_blank">Slade Berryman's UI Improvements
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.linkedin.com/in/sladeberryman/" target="_blank">Slade Berryman's UI Improvements
 
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bad.html">Bad UI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fix.html">Improved UI</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Resources</a>
+            <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+              <li>
+                <a class="dropdown-item" href="https://github.com/sladeberryman/juliett-376" target="_blank">Source Code</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="bad.html">Bad UI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="fix.html">Improved UI</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">Resources</a>
-                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                  <li>
-                    <a class="dropdown-item" href="https://github.com/sladeberryman/juliett-376" target="_blank">Source Code</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fsladeberryman.github.io%2Fjuliett-376%2F" target="_blank">Nu Validation</a>
-                  </li>
-                </ul>
+              <li>
+                <a class="dropdown-item" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fsladeberryman.github.io%2Fjuliett-376%2F" target="_blank">Nu Validation</a>
               </li>
             </ul>
-          </div>
-        </div>
-      </nav>
-  <!-- Container -->
-  <div class="container">
-    <h1> User Interface</h1>
-    <p>This site was created to show an example of a user interface that could use improvement in some way, along with a possible solution.</p>
-    <p>The example that I chose was UNA's parking portal vehicle activation funcitonality, which I think takes far too many clicks for students who are in a hurry.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+
+  <div class="container mt-8 my-5 bg-light p-4 rounded">
+    <!-- Content -->
+    <h1>User Interface</h1>
+    <p>This site showcases an example of a user interface that could benefit from improvements, along with a proposed solution.</p>
+    <h2>Example: UNA Parking Portal Vehicle Activation</h2>
+    <ul>
+      <li>The UNA Parking Portal's vehicle activation functionality requires too many clicks for students who are in a hurry.</li>
+      <li>On this site, I present a shortened version of that workflow that has a card that would be in each student's UNA Portal Page.</li>
+      <li>I know it isn't an exact replica of Portal or a beautiful interface by any means, but I just wanted a way to change the Active Vehicle directly in Portal</li>
+      <li>Should just be a couple API calls to implement this solution in Portal</li>
+    </ul>
   </div>
 
-  <footer class="bg-secondary text-center py-3">
+  <footer class="bg-secondary text-center py-3 fixed-bottom">
     <div class="container">
       <p>&copy; 2023 Slade Berryman. All rights reserved.</p>
     </div>

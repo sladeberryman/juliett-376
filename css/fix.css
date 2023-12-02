@@ -1,0 +1,36 @@
+  
+.background-image {
+    position:fixed;
+    top: 50%; /* Adjust to position the desired portion */
+    left: 0;
+    right: 0;
+    height: 100%; /* Adjust to cover the full height of the container */
+    background-image: url('https://photos.smugmug.com/photos/i-pNvwH9S/0/X2/i-pNvwH9S-X2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust to position the desired portion */
+    transform: translateY(-50%); /* Adjust to center the desired portion vertically */
+}
+  
+.card {
+    background-color: #ffffff; /* White color */
+    padding: 20px;
+    margin: 50px 0px 0px 25px;
+}
+
+.activate-btn {
+    width: 100px; /* Adjust the width as per your needs */
+}
+
+#console-box{
+    position:absolute;
+    bottom:48px; 
+    right:48px;
+    height:400px;
+    width:300px;
+    background-color:#000;
+    color: #55ff55;
+    font-family: monospace;
+    padding:6px; 
+    overflow: scroll;
+}
