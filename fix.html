@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fix.css">
+  <script src="scripts/fix.js"></script>
   <title>User Interface Fix</title>
 </head>
 
@@ -48,13 +50,35 @@
         </div>
       </nav>
   <!-- Container -->
-  <div class="container">
     <h1>Improved User Interface</h1>
+    <div class="background-image"></div>
+    <div class="row justify-content-left">
+      <div class="col-8 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">Vehicles</h5>
+          </div>
+          <div class="card-body">
+            <div class="vehicle d-flex justify-content-between align-items-center">
+              <div>
+                <strong>2FAST4U</strong>
+                <span class="vehicle-description">2006 Tan Honda Civic</span>
+              </div>
+              <button class="btn btn-success activate-btn btn-sm" id="honda">Active</button>
+            </div>
+            <div class="vehicle d-flex justify-content-between align-items-center">
+              <div>
+                <strong>SIYAL8R</strong>
+                <span class="vehicle-description">2004 White Chevy Malibu</span>
+              </div>
+              <button class="btn btn-secondary activate-btn btn-sm" id="chevy">Unactive</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-  </div>
+    <div id="console-box"></div> 
 
   <footer class="bg-secondary text-center py-3">
     <div class="container">
@@ -63,6 +87,8 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src="scripts/fix.js"></script>
 </body>
 
 </html>
